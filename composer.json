@@ -1,0 +1,23 @@
+{
+	"name": "yii2extension/yii2-lang",
+	"type": "yii2-extension",
+	"keywords": ["yii2","module","lang","language"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2extension\\lang\\": "src",
+			"yii2extension\\lang\\tests\\": "tests"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"php": ">=5.3.0"
+	}
+}
